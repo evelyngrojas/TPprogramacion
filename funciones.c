@@ -629,7 +629,7 @@ int FuncionRanking(OperacionTotales AgrupadoXpais[],int cant,ranking vranking[])
 
 void mostrarRanking(ranking vranking[], int cantIngresada)
 {
-    printf("%-8s | %-10s | %-20s | %12s\n", "PUESTO", "COD PAIS", "NOMBRE", "MONTO");
+    printf("%-8s | %-10s | %-20s | %12s\n", "PUESTO", "COD PAIS", "NOMBRE", "MONTOs");
     printf("---------+------------+----------------------+-------------\n");
 
     for (int i = 0; i < cantIngresada; i++)
